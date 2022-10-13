@@ -4,7 +4,7 @@ const News = require('../models/news.model');
 
 //GET list of news
 
-router.get("/news", (req, res, next) => {
+router.get("/", (req, res, next) => {
     News.find()
       .then((response) => res.json(response))
       .catch((err) => {
