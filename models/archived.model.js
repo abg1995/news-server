@@ -5,20 +5,21 @@ const { Schema, model } = mongoose;
 const archivedSchema = new Schema({
     title: {
         type: String,
-        required: true
+       // required: true
     },
     text: {
         type: String,
-        required: true
+       // required: true
     },
     image: {
         type: String
     },
     date: {
-        type: Date,
-        required: true
+        type: String,
+        //required: true
     }
-});
+
+}); 
 
 
 module.exports = model("Archived", archivedSchema);
