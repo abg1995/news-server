@@ -5,18 +5,18 @@ const { Schema, model } = mongoose;
 const newsSchema = new Schema({
     title: {
         type: String,
-        required: true
+        //required: true
     },
     text: {
         type: String,
-        required: true
+      // required: true
     },
     image: {
         type: String
     },
     date: {
         type: String,
-        required: true
+       // required: true
     }
 });
 
