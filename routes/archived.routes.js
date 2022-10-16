@@ -1,7 +1,6 @@
 const router = require("express").Router();
 const { default: mongoose } = require("mongoose");
 const Archived = require("../models/archived.model");
-const News = require('../models/news.model');
 
 //GET list of archived news
 
@@ -17,6 +16,7 @@ router.get("/archived", (req, res, next) => {
       });
   });
 
+  
 
 
   //REMOVE ROUTE ARCHIVED NEWS
@@ -25,7 +25,12 @@ router.get("/archived", (req, res, next) => {
       const {archivedId } = req.params;
 
       Archived.findByIdAndRemove(archivedId)
-        .then()
+        .then((response) => {
+            console.log("Deleted news item",response)
+            res.status(200).json({
+                message: "Archived news deleted"
+            })
+        })
         .catch( err => {
             console.log('error deleting archived news', err)
             res.status(500).json({
