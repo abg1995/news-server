@@ -20,7 +20,7 @@ const news = [
     text: `PP, Ciudadanos y Vox se han citado en una manifestación en Barcelona para celebrar la Fiesta Nacional. 
         En la cabecera de la marcha se podía leer en una pancarta "Más España y más español".`,
     image:
-      "https://cdn-cofjl.nitrocdn.com/aRZyaXAhCbNjFjfLIwNvSLLXBKnuuzMk/assets/static/optimized/rev-6aa85d6/wp-content/uploads/actual-1024x384-1-1-672x372.jpg",
+      "https://www.metropoliabierta.com/uploads/s1/23/31/61/6/fotonoticia-20221012140105-1920_9_1200x480.jpeg",
     date: "12/10/2022",
   },
   {
@@ -29,7 +29,7 @@ const news = [
     Plaza de Lima entre pitos y abucheos por parte del público que se encontraba en la zona. Además, se ha retrasado, 
     haciendo esperar a los reyes.`,
     image:
-      "https://cdn-cofjl.nitrocdn.com/aRZyaXAhCbNjFjfLIwNvSLLXBKnuuzMk/assets/static/optimized/rev-6aa85d6/wp-content/uploads/actual-1024x384-1-1-672x372.jpg",
+      "https://www.elindependiente.com/wp-content/uploads/2022/10/Captura-de-pantalla-2022-10-12-a-las-11.05.00-e1665565701922-656x368.png",
     date: "12/10/2022",
   },
   {
@@ -38,7 +38,7 @@ const news = [
     podrían ser clave para el estudio de enfermedades. Ahora, científicos han logrado implantar este tejido cerebral humano en 
     el cerebro de ratas, salvando importantes limitaciones previas. `,
     image:
-      "https://cdn-cofjl.nitrocdn.com/aRZyaXAhCbNjFjfLIwNvSLLXBKnuuzMk/assets/static/optimized/rev-6aa85d6/wp-content/uploads/actual-1024x384-1-1-672x372.jpg",
+      "https://img2.rtve.es/v/6712234/vertical/?h=400",
     date: "12/10/2022",
   },
   {
