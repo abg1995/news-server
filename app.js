@@ -20,7 +20,7 @@ const allRoutes = require("./routes/index.routes");
 app.use("/api", allRoutes);
 
 const newsRoutes = require('./routes/news.routes');
-app.use("/api",newsRoutes);
+app.use("/api", newsRoutes);
 
 const archivedRoutes = require('./routes/archived.routes');
 app.use("/api", archivedRoutes);
