@@ -21,7 +21,7 @@ const news = [
         En la cabecera de la marcha se podía leer en una pancarta "Más España y más español".`,
     image:
       "https://www.metropoliabierta.com/uploads/s1/23/31/61/6/fotonoticia-20221012140105-1920_9_1200x480.jpeg",
-    date: "12/10/2022",
+    date: "2022-10-12",
   },
   {
     title: "Pitos y abucheos a Sánchez",
@@ -30,7 +30,7 @@ const news = [
     haciendo esperar a los reyes.`,
     image:
       "https://www.elindependiente.com/wp-content/uploads/2022/10/Captura-de-pantalla-2022-10-12-a-las-11.05.00-e1665565701922-656x368.png",
-    date: "12/10/2022",
+    date: "2022-10-12",
   },
   {
     title: " Implantan 'minicerebros' humanos en ratas recién nacidas y logran influir en su comportamiento",
@@ -39,7 +39,7 @@ const news = [
     el cerebro de ratas, salvando importantes limitaciones previas. `,
     image:
       "https://img2.rtve.es/v/6712234/vertical/?h=400",
-    date: "12/10/2022",
+    date: "2022-10-12",
   },
   {
     title: "Un empate in extremis del Barça le complica su futuro en la Champions",
@@ -48,7 +48,7 @@ const news = [
     adelantó a los locales con un tanto en jugada grupal, pero el cuadro italiano le dio la vuelta en la segunda parte gracias a los
      tanto de Barella y Lautaro.`,
     image:"https://img2.rtve.es/i/?w=1600&i=1665608684487.jpg",
-    date: "11/10/2022",
+    date: "2022-10-11",
   }
 ];
 
